@@ -4,9 +4,9 @@ const userData = [
     followerCount: 1,
     post: `
     <p></p>
-    <img src="/manIlustrations.avif" width="100%">
+    <img src="manIlustrations.avif" width="100%">
     `,
-    profile_img: "/profile1.jpg",
+    profile_img: "profile1.jpg",
   },
   {
     userName: "Tom Holland",
@@ -14,7 +14,7 @@ const userData = [
     post: `
     <p>Hope you would love this video of my friend Tech Burner ❤️❤️. He makes very Interesting videos...</p> <iframe src="https://www.youtube.com/embed/F6hmwkI3n64?si=Vuxu5j4V_MWKtTvU" title="YouTube video player"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
    `,
-    profile_img: "/profile2.jpg",
+    profile_img: "profile2.jpg",
   },
   {
     userName: "Tech Burner",
@@ -26,14 +26,14 @@ const userData = [
     userName: "Microsoft",
     followerCount: 567,
     post: `<iframe  src="https://www.youtube.com/embed/4sHlCovj-Ik?si=xIjfMH_hQWLh8vYG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
-    profile_img: "/profile4.jpg",
+    profile_img: "profile4.jpg",
   },
 
   {
     userName: "Virat Kohli",
     followerCount: "400m",
     post: `Enjoying the match🏏🏏🏏`,
-    profile_img: "/profileai.jpg",
+    profile_img: "profileai.jpg",
   },
 
   {
@@ -42,7 +42,7 @@ const userData = [
     post: `
     <p></p>
     <img src="/manIlustrations.avif" width="100%">`,
-    profile_img: "/profile5.jpg",
+    profile_img: "profile5.jpg",
   },
   {
     userName: "Tony Stark",
@@ -50,7 +50,7 @@ const userData = [
     post: `
     <p></p>
     <img src="illustration1.avif" width="100%">`,
-    profile_img: "/profile5.jpg",
+    profile_img: "profile5.jpg",
   },
 ];
 
@@ -58,7 +58,7 @@ const users = {
   userName: "Will smith",
   followerCount: 45,
   post: `<iframe src="https://www.youtube.com/embed/6GX-1BkXbOk?si=NIX9n93LNFZknkl-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
-  profile_img: "/profile2.jpg",
+  profile_img: "profile2.jpg",
 };
 userData.push(users);
 
