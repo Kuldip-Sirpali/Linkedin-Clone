@@ -4,7 +4,7 @@ const userData = [
     followerCount: 1,
     post: `
     <p></p>
-    <img src="manIlustrations.avif" width="100%">
+    <img src="/manIlustrations.avif" width="100%">
     `,
     profile_img: "profile1.jpg",
   },
@@ -41,7 +41,7 @@ const userData = [
     followerCount: "1000",
     post: `
     <p></p>
-    <img src="manIlustrations.avif" width="100%">`,
+    <img src="/manIlustrations.avif" width="100%">`,
     profile_img: "profile5.jpg",
   },
   {
@@ -49,7 +49,7 @@ const userData = [
     followerCount: "1000",
     post: `
     <p></p>
-    <img src="illustration1.avif" width="100%">`,
+    <img src="/illustration1.avif" width="100%">`,
     profile_img: "profile5.jpg",
   },
 ];
