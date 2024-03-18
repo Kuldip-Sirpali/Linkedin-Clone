@@ -52,7 +52,7 @@ newWorkPageBtn.addEventListener("click", (evt) => {
         <div class="network-more-btn global-hover">See more <i class="fa-solid fa-angle-down"></i></div>
       </div>
       <div class="image-container">
-        <img src="/IMG/random.png" width="100%" alt="" />
+        <img src="/random.png" width="100%" alt="" />
       </div>
       <div class="network-footer">
         <div class="links-container-side">
@@ -134,9 +134,9 @@ newWorkPageBtn.addEventListener("click", (evt) => {
   for (const peoplesData of techRecommendedData) {
     recommmenedUserbox[0].innerHTML += `<div class="users-container-box">
       <div class="cover-box">
-         <img src="/IMG/${peoplesData["cover-image"]}" width="100%" alt="">
+         <img src="/${peoplesData["cover-image"]}" width="100%" alt="">
         </div>
-         <div class="users-profile-box"><img src="/IMG/${peoplesData["profile-image"]}" width="100%" alt=""></div>
+         <div class="users-profile-box"><img src="/${peoplesData["profile-image"]}" width="100%" alt=""></div>
         <div class="users-info-box">
        <span class="user-name-box">${peoplesData.username}</span>
        <p>${peoplesData.about}</p>
@@ -150,9 +150,9 @@ newWorkPageBtn.addEventListener("click", (evt) => {
   for (const groupsPeople of groupsData) {
     recommmenedUserbox[1].innerHTML += `<div class="users-container-box">
       <div class="cover-box">
-         <img src="/IMG/${groupsPeople["cover-image"]}" width="100%" alt="">
+         <img src="/${groupsPeople["cover-image"]}" width="100%" alt="">
         </div>
-         <div class="users-profile-box"><img src="/IMG/${groupsPeople["profile-image"]}" width="100%" alt=""></div>
+         <div class="users-profile-box"><img src="/${groupsPeople["profile-image"]}" width="100%" alt=""></div>
         <div class="users-info-box">
        <span class="user-name-box">${groupsPeople.username}</span>
        <p>${groupsPeople.about}</p>
@@ -168,7 +168,7 @@ newWorkPageBtn.addEventListener("click", (evt) => {
       <div class="cover-box">
          <img src="/IMG/${popularPeople["cover-image"]}" width="100%" alt="">
         </div>
-         <div class="users-profile-box"><img src="/IMG/${popularPeople["profile-image"]}" width="100%" alt=""></div>
+         <div class="users-profile-box"><img src="/${popularPeople["profile-image"]}" width="100%" alt=""></div>
         <div class="users-info-box">
        <span class="user-name-box">${popularPeople.username}</span>
        <p>${popularPeople.about}</p>
@@ -182,9 +182,9 @@ newWorkPageBtn.addEventListener("click", (evt) => {
   for (const moreSuggested of morePeopleData) {
     let moreSuggestedHtml = `<div class="users-container-box">
     <div class="cover-box">
-       <img src="/IMG/${moreSuggested["cover-image"]}" width="100%" alt="">
+       <img src="/${moreSuggested["cover-image"]}" width="100%" alt="">
       </div>
-       <div class="users-profile-box"><img src="/IMG/${moreSuggested["profile-image"]}" width="100%" alt=""></div>
+       <div class="users-profile-box"><img src="/${moreSuggested["profile-image"]}" width="100%" alt=""></div>
       <div class="users-info-box">
      <span class="user-name-box">${moreSuggested.username}</span>
      <p>${moreSuggested.about}</p>
@@ -233,7 +233,7 @@ newWorkPageBtn.addEventListener("click", (evt) => {
     <div class="cover-box">
      <img src="/IMG/${allDatas["cover-image"]}" width="100%" alt="">
      </div>
-       <div class="users-profile-box"><img src="/IMG/${allDatas["profile-image"]}" width="100%" alt=""></div>
+       <div class="users-profile-box"><img src="/${allDatas["profile-image"]}" width="100%" alt=""></div>
         <div class="users-info-box">
     <span class="user-name-box">${allDatas.username}</span>
      <p>${allDatas.about}</p>
@@ -367,7 +367,7 @@ jobsPageBtn.addEventListener("click", (evt) => {
 
   <div class="improve-resume global-hover">
       <span>I want to improve resume</span>
-      <span class="resume-icon"><img src="/IMG/profile1.jpg" width="100%"></span>
+      <span class="resume-icon"><img src="/profile1.jpg" width="100%"></span>
   </div>
 
   <div class="guide-discription">
@@ -418,7 +418,7 @@ jobsPageBtn.addEventListener("click", (evt) => {
         <div class="job-type"><span>${dataJob.type}</span></div>
         <div class="profile-matching">
           <div class="job-profile">
-            <img src="/IMG/profileai.jpg" width="100%">
+            <img src="/profileai.jpg" width="100%">
           </div>
           <span>Your profile matches this job</span>
         </div>
@@ -668,7 +668,7 @@ notificationBtn.addEventListener("click", (evt) => {
   
               <aside class="side-footer-notification">
                     <div class="notification-side-footer-two">
-                      <img src="/IMG/random.png" width="100%" alt="" />
+                      <img src="/random.png" width="100%" alt="" />
                     </div>
 
                     <div class="side-footer-three">
@@ -712,7 +712,7 @@ notificationBtn.addEventListener("click", (evt) => {
       <div class="notification-box global-hover">
   
         <div class="page-logo">
-            <span><img src="/IMG/${notificationContainer.logo}" width="100%"><span>
+            <span><img src="/${notificationContainer.logo}" width="100%"><span>
         </div>
   
       <div class="notification-content">
@@ -747,7 +747,7 @@ notificationBtn.addEventListener("click", (evt) => {
     mainNotificationContainer.innerHTML = `
     <div class="demo-notifi-contenter">
     <div class="demo-image-container">
-    <img src="/IMG/manIlustrations.avif" width="100%">
+    <img src="/manIlustrations.avif" width="100%">
     
     </div>
     
