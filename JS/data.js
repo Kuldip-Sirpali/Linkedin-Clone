@@ -103,7 +103,7 @@ const jobsData = [
     companyName: "Google",
     position: "Software Developer",
     type: "Remote",
-    companyLogo: "aiprofile.jpg",
+    companyLogo: "profile2.jpg",
   },
   {
     companyName: "Dell",
