@@ -134,9 +134,9 @@ newWorkPageBtn.addEventListener("click", (evt) => {
   for (const peoplesData of techRecommendedData) {
     recommmenedUserbox[0].innerHTML += `<div class="users-container-box">
       <div class="cover-box">
-         <img src="/${peoplesData["cover-image"]}" width="100%" alt="">
+         <img src="${peoplesData["cover-image"]}" width="100%" alt="">
         </div>
-         <div class="users-profile-box"><img src="/${peoplesData["profile-image"]}" width="100%" alt=""></div>
+         <div class="users-profile-box"><img src="${peoplesData["profile-image"]}" width="100%" alt=""></div>
         <div class="users-info-box">
        <span class="user-name-box">${peoplesData.username}</span>
        <p>${peoplesData.about}</p>
@@ -150,9 +150,9 @@ newWorkPageBtn.addEventListener("click", (evt) => {
   for (const groupsPeople of groupsData) {
     recommmenedUserbox[1].innerHTML += `<div class="users-container-box">
       <div class="cover-box">
-         <img src="/${groupsPeople["cover-image"]}" width="100%" alt="">
+         <img src="${groupsPeople["cover-image"]}" width="100%" alt="">
         </div>
-         <div class="users-profile-box"><img src="/${groupsPeople["profile-image"]}" width="100%" alt=""></div>
+         <div class="users-profile-box"><img src="${groupsPeople["profile-image"]}" width="100%" alt=""></div>
         <div class="users-info-box">
        <span class="user-name-box">${groupsPeople.username}</span>
        <p>${groupsPeople.about}</p>
@@ -168,7 +168,7 @@ newWorkPageBtn.addEventListener("click", (evt) => {
       <div class="cover-box">
          <img src="/IMG/${popularPeople["cover-image"]}" width="100%" alt="">
         </div>
-         <div class="users-profile-box"><img src="/${popularPeople["profile-image"]}" width="100%" alt=""></div>
+         <div class="users-profile-box"><img src="${popularPeople["profile-image"]}" width="100%" alt=""></div>
         <div class="users-info-box">
        <span class="user-name-box">${popularPeople.username}</span>
        <p>${popularPeople.about}</p>
@@ -182,9 +182,9 @@ newWorkPageBtn.addEventListener("click", (evt) => {
   for (const moreSuggested of morePeopleData) {
     let moreSuggestedHtml = `<div class="users-container-box">
     <div class="cover-box">
-       <img src="/${moreSuggested["cover-image"]}" width="100%" alt="">
+       <img src="${moreSuggested["cover-image"]}" width="100%" alt="">
       </div>
-       <div class="users-profile-box"><img src="/${moreSuggested["profile-image"]}" width="100%" alt=""></div>
+       <div class="users-profile-box"><img src="${moreSuggested["profile-image"]}" width="100%" alt=""></div>
       <div class="users-info-box">
      <span class="user-name-box">${moreSuggested.username}</span>
      <p>${moreSuggested.about}</p>
@@ -231,9 +231,9 @@ newWorkPageBtn.addEventListener("click", (evt) => {
         recommendedTitle.innerHTML = `See more people`; //title for every page
         recommendedContainer.innerHTML += `<div class="users-container-box">
     <div class="cover-box">
-     <img src="/IMG/${allDatas["cover-image"]}" width="100%" alt="">
+     <img src="${allDatas["cover-image"]}" width="100%" alt="">
      </div>
-       <div class="users-profile-box"><img src="/${allDatas["profile-image"]}" width="100%" alt=""></div>
+       <div class="users-profile-box"><img src="${allDatas["profile-image"]}" width="100%" alt=""></div>
         <div class="users-info-box">
     <span class="user-name-box">${allDatas.username}</span>
      <p>${allDatas.about}</p>
@@ -408,7 +408,7 @@ jobsPageBtn.addEventListener("click", (evt) => {
   for (const dataJob of jobsData) {
     jobsContainer.innerHTML += `
     <div class="jobs-data">
-      <div class="company-logo"><span><img src="/IMG/${dataJob.companyLogo}" width="100%"></span></div>
+      <div class="company-logo"><span><img src="${dataJob.companyLogo}" width="100%"></span></div>
       <div class="job-informations">
         <div class="job-content-one">
           <div>${dataJob.position}</div>
@@ -418,7 +418,7 @@ jobsPageBtn.addEventListener("click", (evt) => {
         <div class="job-type"><span>${dataJob.type}</span></div>
         <div class="profile-matching">
           <div class="job-profile">
-            <img src="/profileai.jpg" width="100%">
+            <img src="profileai.jpg" width="100%">
           </div>
           <span>Your profile matches this job</span>
         </div>
@@ -518,7 +518,7 @@ messagepPageBtn.addEventListener("click", (evt) => {
 
             <div class="mini-message-container-pop-up">
                 <div class="message-top-heading">
-                <span class="msg-user-profile"><img src="/IMG/profileai.jpg" width="100%"></span>   <p>Messaage</p>
+                <span class="msg-user-profile"><img src="profileai.jpg" width="100%"></span>   <p>Messaage</p>
                     <div class="edit-and-manage"><p><i class="fa-solid fa-ellipsis global-hover "></i></p>
                     <p> <i class="fa-solid fa-pen-to-square global-hover create-msg-btn"></i> <i class="ri-arrow-up-wide-line global-hover show-message-pop-up"></i></p>
                     </div>
@@ -543,7 +543,7 @@ messagepPageBtn.addEventListener("click", (evt) => {
         </div>
         
         <div class="right-message-container">
-                <div class="msg-right-top"><img src="/IMG/msgImage.jpg" width="100%"></div>
+                <div class="msg-right-top"><img src="msgImage.jpg" width="100%"></div>
                 <div class="msg-right-bottom">
                       <div class="links-container-side">
                             <p>
@@ -668,7 +668,7 @@ notificationBtn.addEventListener("click", (evt) => {
   
               <aside class="side-footer-notification">
                     <div class="notification-side-footer-two">
-                      <img src="/random.png" width="100%" alt="" />
+                      <img src="random.png" width="100%" alt="" />
                     </div>
 
                     <div class="side-footer-three">
@@ -712,7 +712,7 @@ notificationBtn.addEventListener("click", (evt) => {
       <div class="notification-box global-hover">
   
         <div class="page-logo">
-            <span><img src="/${notificationContainer.logo}" width="100%"><span>
+            <span><img src="${notificationContainer.logo}" width="100%"><span>
         </div>
   
       <div class="notification-content">
@@ -747,7 +747,7 @@ notificationBtn.addEventListener("click", (evt) => {
     mainNotificationContainer.innerHTML = `
     <div class="demo-notifi-contenter">
     <div class="demo-image-container">
-    <img src="/manIlustrations.avif" width="100%">
+    <img src="manIlustrations.avif" width="100%">
     
     </div>
     
