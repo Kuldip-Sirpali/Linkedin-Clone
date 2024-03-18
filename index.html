@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home page</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" type="image/svg+xml" href="https://static.licdn.com/aero-v1/sc/h/akt4ae504epesldzj74dzred8"
+    id="favicon-svg" />
+  <link rel="stylesheet" href="/CSS/styles.css" />
+  <link rel="stylesheet" href="/CSS/media.css" />
+  <link rel="stylesheet" href="/CSS/networkPage.css">
+  <link rel="stylesheet" href="/CSS/jobs.css">
+  <link rel="stylesheet" href="/CSS/messages.css">
+  <link rel="stylesheet" href="/CSS/notifications.css">
+
+</head>
+
+<body>
+  <div class="loader-wrapper">
+    <div class="loader">
+      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+        <path fill="#0078d4" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5	V37z"></path><path d="M30,37V26.901c0-1.689-0.819-2.698-2.192-2.698c-0.815,0-1.414,0.459-1.779,1.364	c-0.017,0.064-0.041,0.325-0.031,1.114L26,37h-7V18h7v1.061C27.022,18.356,28.275,18,29.738,18c4.547,0,7.261,3.093,7.261,8.274	L37,37H30z M11,37V18h3.457C12.454,18,11,16.528,11,14.499C11,12.472,12.478,11,14.514,11c2.012,0,3.445,1.431,3.486,3.479	C18,16.523,16.521,18,14.485,18H18v19H11z" opacity=".05"></path><path d="M30.5,36.5v-9.599c0-1.973-1.031-3.198-2.692-3.198c-1.295,0-1.935,0.912-2.243,1.677	c-0.082,0.199-0.071,0.989-0.067,1.326L25.5,36.5h-6v-18h6v1.638c0.795-0.823,2.075-1.638,4.238-1.638	c4.233,0,6.761,2.906,6.761,7.774L36.5,36.5H30.5z M11.5,36.5v-18h6v18H11.5z M14.457,17.5c-1.713,0-2.957-1.262-2.957-3.001	c0-1.738,1.268-2.999,3.014-2.999c1.724,0,2.951,1.229,2.986,2.989c0,1.749-1.268,3.011-3.015,3.011H14.457z" opacity=".07"></path><path fill="#fff" d="M12,19h5v17h-5V19z M14.485,17h-0.028C12.965,17,12,15.888,12,14.499C12,13.08,12.995,12,14.514,12	c1.521,0,2.458,1.08,2.486,2.499C17,15.887,16.035,17,14.485,17z M36,36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698	c-1.501,0-2.313,1.012-2.707,1.99C24.957,25.543,25,26.511,25,27v9h-5V19h5v2.616C25.721,20.5,26.85,19,29.738,19	c3.578,0,6.261,2.25,6.261,7.274L36,36L36,36z"></path>
+        </svg>
+
+    </div>
+  </div>
+
+  <!-- nav section  -->
+  <nav>
+    <div class="nav-content">
+      <div class="nav-bar-one">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="#fff"
+          class="mercado-match" width="44" height="44" focusable="false">
+          <path
+            d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z">
+          </path>
+        </svg>
+        <span class="search-icon-box">
+
+          <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+
+
+
+        </span>
+
+        <input type="search" placeholder="Search" id="search-input" />
+      </div>
+
+      <div class="nav-bar-two">
+        <ul>
+          <li>
+            <a class="main-home-page">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor"
+                class="mercado-match" width="24" height="24" focusable="false">
+                <path d="M23 9v2h-2v7a3 3 0 01-3 3h-4v-6h-4v6H6a3 3 0 01-3-3v-7H1V9l11-7 5 3.18V2h3v5.09z"></path>
+              </svg>
+
+              <span>Home</span></a>
+          </li>
+          <li>
+            <a class="network-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor"
+                class="mercado-match" width="24" height="24" focusable="false">
+                <path
+                  d="M12 16v6H3v-6a3 3 0 013-3h3a3 3 0 013 3zm5.5-3A3.5 3.5 0 1014 9.5a3.5 3.5 0 003.5 3.5zm1 2h-2a2.5 2.5 0 00-2.5 2.5V22h7v-4.5a2.5 2.5 0 00-2.5-2.5zM7.5 2A4.5 4.5 0 1012 6.5 4.49 4.49 0 007.5 2z">
+                </path>
+              </svg>
+
+              <span>Network</span></a>
+          </li>
+          <li>
+            <a class="jobs-page-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor"
+                class="mercado-match" width="24" height="24" focusable="false">
+                <path
+                  d="M12 16v6H3v-6a3 3 0 013-3h3a3 3 0 013 3zm5.5-3A3.5 3.5 0 1014 9.5a3.5 3.5 0 003.5 3.5zm1 2h-2a2.5 2.5 0 00-2.5 2.5V22h7v-4.5a2.5 2.5 0 00-2.5-2.5zM7.5 2A4.5 4.5 0 1012 6.5 4.49 4.49 0 007.5 2z">
+                </path>
+              </svg>
+
+              <span>Jobs</span></a>
+          </li>
+          <li>
+            <a class="message-page-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor"
+                class="mercado-match" width="24" height="24" focusable="false">
+                <path
+                  d="M17 6V5a3 3 0 00-3-3h-4a3 3 0 00-3 3v1H2v4a3 3 0 003 3h14a3 3 0 003-3V6zM9 5a1 1 0 011-1h4a1 1 0 011 1v1H9zm10 9a4 4 0 003-1.38V17a3 3 0 01-3 3H5a3 3 0 01-3-3v-4.38A4 4 0 005 14z">
+                </path>
+              </svg><span>Message</span></a>
+          </li>
+          <li>
+            <a class="notification-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor"
+                class="mercado-match" width="24" height="24" focusable="false">
+                <path
+                  d="M22 19h-8.28a2 2 0 11-3.44 0H2v-1a4.52 4.52 0 011.17-2.83l1-1.17h15.7l1 1.17A4.42 4.42 0 0122 18zM18.21 7.44A6.27 6.27 0 0012 2a6.27 6.27 0 00-6.21 5.44L5 13h14z">
+                </path>
+              </svg><span>Notifications</span></a>
+          </li>
+          <span class="user-box">
+            <div class="small-profile-image"><img src="/IMG/profileai.jpg" width="100%"></div>
+            <p>Me <i class="fa-solid fa-caret-down"></i></p></i>
+          </span>
+          <div class="user-me-pop-up-box">
+
+            <div class="pop-up-content-one">
+              <div class="side-profile">
+                <div class="pop-profile-box"><img src="/IMG/profileai.jpg" width="100%" alt=""></div>
+              </div>
+              <div class="side-information">
+                <p>John Doe</p>
+                <p>Software Developer</p>
+              </div>
+              <div class="view-profile-box">
+                <button class="view-profile-btn">View Profile</button>
+              </div>
+
+            </div>
+            <div class="pop-up-content-two">
+              <p>Account</p>
+              <p><a href="#">Try Premium for 0 $ </a></p>
+              <p><a href="#">Settings and Privacy</a></p>
+              <p><a href="#">Help</a></p>
+              <p><a href="#">Language</a></p>
+            </div>
+            <div class="pop-up-content-three">
+              <p>Manage</p>
+              <p><a href="#">Post & Activity</a></p>
+              <p><a href="#">Job Posting Accounts</a></p>
+
+            </div>
+            <div class="pop-up-content-four">
+              <p><a href="#">Sign out</a></p>
+            </div>
+
+          </div>
+        </ul>
+
+
+
+      </div>
+
+      <div class="nav-bar-three">
+        <p class="business-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor"
+            class="mercado-match" width="24" height="24" focusable="false">
+            <path
+              d="M3 3h4v4H3zm7 4h4V3h-4zm7-4v4h4V3zM3 14h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4zM3 21h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4z">
+            </path>
+          </svg>
+
+          <span>For Business <i class="fa-solid fa-caret-down"></i></span>
+
+        </p>
+
+        <p class="post-job-btn">
+
+
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor"
+              width="24" height="24" focusable="false">
+              <circle cx="12" cy="4" r="2" style="isolation:isolate" opacity=".75"></circle>
+              <path
+                d="M21 10H3a1 1 0 00-1 1v10a1 1 0 001 1h18a1 1 0 001-1V11a1 1 0 00-1-1zm-5 9H8v-2h8v2zm2-4H6v-2h12v2z">
+              </path>
+              <g opacity=".6">
+                <path
+                  d="M9.57 5.75l-2.41 4.83 1.68.84 2.28-4.57a3 3 0 01-1.55-1.1zM14.43 5.75a3 3 0 01-1.55 1.1l2.28 4.57 1.68-.84z"
+                  style="isolation:isolate" opacity=".55"></path>
+              </g>
+            </svg>
+          </span>
+          <span>Post a job</span>
+
+
+
+
+        </p>
+      </div>
+    </div>
+
+
+  </nav>
+
+
+  <div class="business-container-pop-up">
+
+    <div class="business-main-container">
+
+
+      <div class="business-one">
+        <span>For Business</span><span class="business-cross-btn"><i class="ri-close-line"></i></span>
+      </div>
+
+      <div class="business-two">
+        <div class="business-top">
+          <p> Visit More Linkedin Products</p>
+        </div>
+
+
+        <div class="business-middle">
+
+
+
+          <div class="product-one-container">
+            <div class="products"><img src="/IMG/1.svg" width="100%">
+
+              <span>Learning</span>
+            </div>
+            <div class="products"><img src="/IMG/2.svg" width="100%">
+              <span>Talent Insight</span>
+            </div>
+            <div class="products"><img src="/IMG/3.svg" width="100%">
+              <span>Post a Job</span>
+            </div>
+            <div class="products"><img src="/IMG/4.svg" width="100%">
+              <span>Advertise</span>
+            </div>
+
+          </div>
+
+          <div class="product-two-container">
+            <div class="products"><img src="/IMG/5.svg" width="100%">
+              <span>Find New Client</span>
+
+            </div>
+            <div class="products"><img src="/IMG/6.svg" width="100%"> <span>Groups</span>
+            </div>
+            <div class="products"><img src="/IMG/7.svg" width="100%">
+              <span>Services Marketplace</span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="business-bottom">
+
+          <div class="explore-title">Explore more for business</div>
+
+          <div>Hire on Linkedin
+            <a href="#">Find, attract and recruit talent </a>
+          </div>
+          <div>Sell with Linkedin
+            <a href="#">Unlock sales opportunities </a>
+          </div>
+          <div>Post a job for free
+            <a href="#">Get qualified applicants quickly</a>
+          </div>
+          <div>Learn with Linkedin
+            <a href="#">Courses to develop your employees </a>
+          </div>
+          <div>Admin Center
+            <a href="#">Manage biling and account details </a>
+          </div>
+
+          <div class="create-page-div">
+            <a href="#"> Create a Company Page <i class="ri-add-line"></i> </a>
+          </div>
+
+        </div>
+
+        <!-- <div class="products-container"></div>  -->
+
+      </div>
+
+
+    </div>
+
+
+
+  </div>
+
+
+  <main>
+
+
+    <div class="hero-container">
+      <aside class="profile-container">
+        <div class="profile-top">
+          <!-- 1 -->
+          <div class="cover-image-box"></div>
+
+          <!-- 2 -->
+          <div class="user-profile-image-box">
+            <div class="user-profile-picture">
+              <img src="/IMG/profileai.jpg" width="100%" />
+            </div>
+            <p class="personal-user-name">John Doe</p>
+            <p class="user-job-type">Software Developer</p>
+          </div>
+
+          <div class="get-network-box">
+            <div>
+              <p>Connections</p>
+              <p>Get your network</p>
+            </div>
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor"
+                class="mercado-match" width="4vmin" height="4vmin" focusable="false">
+                <path
+                  d="M12 16v6H3v-6a3 3 0 013-3h3a3 3 0 013 3zm5.5-3A3.5 3.5 0 1014 9.5a3.5 3.5 0 003.5 3.5zm1 2h-2a2.5 2.5 0 00-2.5 2.5V22h7v-4.5a2.5 2.5 0 00-2.5-2.5zM7.5 2A4.5 4.5 0 1012 6.5 4.49 4.49 0 007.5 2z">
+                </path>
+              </svg>
+            </div>
+          </div>
+          <div class="get-premium-box">
+            <p>Strenthen your profile with an AI writing assistance</p>
+            <p><a href="#">Try premium for 0$</a></p>
+          </div>
+          <div class="get-my-items-box">
+            <span><i class="ri-save-line"></i></span> <span>My items</span>
+          </div>
+        </div>
+
+
+        <div class="profile-bottom">
+
+          <div class="profile-bottom-content">
+            <p><a href="#">Groups</a></p>
+            <p class="events-with-icon">
+              <a href="#">Events</a> <i class="fa-solid fa-plus"></i>
+            </p>
+            <p><a href="#">Followed Hashtags</a></p>
+            <div class="discover-box">Discover more</div>
+          </div>
+        </div>
+        <div class="see-more-less-button">
+          <span>See more <i class="ri-arrow-down-line"></i></span>
+        </div>
+      </aside>
+
+      <div class="main-content-container">
+        <!-- <div class="data-show-container">
+            <div class="top-content">
+              <div class="profile-img-container">
+                <img src="about.png" width="100" alt="Profile" />
+              </div>
+              <span class="username">Username</span>
+              <div class="follow-user">Follow</div>
+            </div>
+
+            <div class="middle-content">
+              <div class="user-contents">
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Suscipit vel voluptatibus officiis, sed repellat quas
+                  quibusdam magni alias itaque dolorum sapiente doloribus. Fugit
+                  iure mollitia ullam quo repellendus assumenda! Nesciunt!Lo
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                  blanditiis in sed, repellat natus dolorem ratione, deserunt,
+                  culpa mollitia perfetae.
+                </p>
+              </div>
+            </div>
+
+            <div class="bottom-content">
+              <div class="like-container">
+                <i class="ri-heart-line"></i>
+                <p class="show-like-count">1</p>
+              </div>
+            </div>
+          </div> -->
+      </div>
+
+      <aside class="side-footer">
+        <div class="side-footer-one">
+          <div class="add-feed-text"><span>Add to your feed</span></div>
+
+          <div class="people-recommendations-container">
+            <div class="recommended-user">
+              <div class="recommened-profile">
+                <img src="/IMG/aiProfile.jpg" width="100%" alt="" />
+              </div>
+              <div class="recommended-users-info">
+                <p class="recom-peoples-name">Neeraj Walia</p>
+                <p>Software Developer, yellow.ai</p>
+                <button>+ Follow</button>
+              </div>
+            </div>
+
+            <div class="recommended-user">
+              <div class="recommened-profile">
+                <img src="/IMG/profile1.jpg" width="100%" alt="" srcset="" />
+              </div>
+
+              <div class="recommended-users-info">
+                <p class="recom-peoples-name">Bill Gates</p>
+                <p>Founder of Micorosoft</p>
+                <button>+ Follow</button>
+              </div>
+            </div>
+            <div class="recommended-user">
+              <div class="recommened-profile">
+                <img src="/IMG/profile2.jpg" width="100%" alt="" />
+              </div>
+              <div class="recommended-users-info">
+                <p class="recom-peoples-name">Sundar Pichai</p>
+                <p>CEO, Google</p>
+                <button>+ Follow</button>
+              </div>
+            </div>
+          </div>
+          <div class="more-recommendation-box">
+            View all the recommendations
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="side-footer-two">
+          <img src="/IMG/random.png" width="100%" alt="" />
+        </div>
+
+        <div class="side-footer-three">
+          <div class="links-container-side">
+            <p>
+              <a href="#">About</a>
+              <a href="#">Accessibilty</a>
+              <a href="#">Help Center</a>
+            </p>
+
+            <p>
+              <a href="#">Privacy & Terms </a>
+              <a href="#">Ad Choices</a>
+              <a href="#">Advertising</a>
+            </p>
+
+            <p>
+              <a href="#">Business Services</a>
+              <a href="#">Get the Linked app</a>
+              <a href="#">More</a>
+            </p>
+          </div>
+          <div class="copy-right-text">
+            <i class="ri-linkedin-box-fill"></i> Kuldip Sirpali &copy; 2024
+          </div>
+        </div>
+      </aside>
+    </div>
+  </main>
+  <script src="/JS/data.js"></script>
+  <script src="/JS/script.js"></script>
+  <script src="/JS/features.js"></script>
+  <script src="/JS/change.js"></script>
+  <script src="/JS/network.js"></script>
+</body>
+
+</html>
