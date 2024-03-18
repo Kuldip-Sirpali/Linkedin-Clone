@@ -17,11 +17,11 @@ const userData = [
     profile_img: "profile2.jpg",
   },
   {
-    userName: "Tech Burner",
-    followerCount: 567,
-    post: `<iframe src="https://www.youtube.com/embed/z_ZudGJktcw?si=Y8cPngrObBxApd2w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
-     profile_img: "profile6.jpg",
-  },
+  //   userName: "Tech Burner",
+  //   followerCount: 567,
+  //   post: `<iframe src="https://www.youtube.com/embed/z_ZudGJktcw?si=Y8cPngrObBxApd2w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
+  //    profile_img: "profile6.jpg",
+  // },
   {
     userName: "Microsoft",
     followerCount: 567,
