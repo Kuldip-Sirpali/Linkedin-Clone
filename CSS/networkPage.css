@@ -1,0 +1,280 @@
+.global-hover:hover {
+  background: #dadada;
+}
+
+
+.complete-newtork-hero-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.network-boxes-container {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.left-container {
+  height: 90vmin;
+  width: 50vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  overflow: hidden;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: rgba(15, 11, 11, 0.76) 0px 1px 3px 0px, rgba(255, 255, 255, 0.795) 0px 0px 0px 1px;
+  font-size: 2.8vmin;
+  color: #887c7c;
+
+
+}
+
+.js-left-container {
+  height: 130vmin;
+
+}
+
+.manage-network-container {
+  width: 100%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title-network {
+  padding: 3vmin;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  width: 100%;
+  font-weight: 500;
+}
+
+.connections-title {
+  width: 100%;
+  display: flex;
+  padding: 2vmin;
+  align-items: center;
+  background: #fff;
+}
+
+
+.network-main-btns-container {
+  /* height: 30vmin; */
+  width: 100%;
+  background: #fff;
+  display: none;
+}
+
+
+.js-show-more-network {
+  display: block;
+}
+
+
+
+.network-main-btns-container p {
+  background: #fff;
+  padding: 2vmin;
+
+}
+
+.network-main-btns-container p:hover {
+  background: #dadada;
+}
+
+
+.network-more-btn {
+  width: 100%;
+  font-weight: 600;
+  padding: 2vmin;
+  background: #fff;
+  cursor: pointer;
+}
+
+
+
+
+.image-container {
+  /* height: 50vmin; */
+  width: 100%;
+  background: #000;
+
+}
+
+.network-footer {
+  /* height: 30vmin; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.right-main-container {
+  width: 126vmin;
+  /* height: 500vmin; */
+  background-color: #ffffff;
+  box-shadow: rgba(15, 11, 11, 0.384) 0px 1px 3px 0px, rgba(255, 255, 255, 0.795) 0px 0px 0px 1px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.network-main-container {
+  width: 100%;
+  background: #ffffff;
+
+}
+
+.users-type-title {
+  height: 8vmin;
+
+  font-size: 2.6vmin;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  margin: 2vmin;
+  background: #fff;
+}
+
+.users-type-title button {
+  border: none;
+  background: transparent;
+  font-weight: 600;
+  color: #888181;
+  padding: 1vmin 2vmin;
+  cursor: pointer;
+}
+
+.user-profile-main-container {
+  /* height: 80vmin; */
+  background: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 3vmin;
+
+}
+
+.users-container-box {
+  height: 46vmin;
+  width: 38vmin;
+  background-color: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #79747471;
+  transition: all 0.5s ease;
+  margin-bottom: 2vmin;
+}
+
+.users-container-box:hover {
+  box-shadow: rgb(15, 11, 11) 0px 1px 3px 0px, rgba(255, 255, 255, 0.795) 0px 0px 0px 1px;
+}
+
+.cover-box {
+  width: 100%;
+  height: 4vmin;
+}
+
+.users-profile-box {
+  position: relative;
+  height: 12vmin;
+  width: 12vmin;
+  border-radius: 50%;
+  overflow: hidden;
+  color: #dadada;
+
+}
+
+
+
+.users-info-box {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  height: 14vmin;
+}
+
+.users-info-box .user-name-box {
+  font-weight: 700;
+}
+
+.show-follower-count-box {
+  width: 90%;
+  padding: 1vmin;
+  font-size: 2vmin;
+  color: #776d6d;
+  /* background: red; */
+}
+
+.follow-btn {
+  padding: 1vmin 12vmin 1vmin 12vmin;
+  border-radius: 3vmin;
+  background: #fff;
+  border: 1px solid #3033c2;
+  cursor: pointer;
+  margin-top: 1vmin;
+  font-size: 2.3vmin;
+}
+
+
+.more-recommened-popup-container {
+  height: 80vmin;
+  width: 120vmin;
+  background: #fff;
+  box-shadow: rgb(15, 11, 11) 0px 1px 3px 0px, rgba(255, 255, 255, 0.795) 0px 0px 0px 1px;
+  position: fixed;
+  overflow: hidden;
+  border-radius: 6px;
+  display: none;
+}
+
+.js-see-all-pop-up {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 0 400vmin #00000070;
+}
+
+.recommended-heading {
+  height: 8vmin;
+  /* background: red; */
+  display: flex;
+  align-items: center;
+  font-size: 2.8vmin;
+  justify-content: space-between;
+  margin: 2vmin;
+  cursor: pointer;
+}
+
+
+.recommended-heading i {
+
+  border-radius: 50%;
+  font-size: 4vmin;
+  padding: 1.2vmin;
+  color: #757070;
+
+}
+
+.all-recommended-container {
+  width: 100%;
+  padding: 2vmin;
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
