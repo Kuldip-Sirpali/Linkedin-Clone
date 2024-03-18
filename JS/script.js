@@ -87,7 +87,7 @@ for (const data of userData) {
 </div>`;
 
 
-
+}
   // follow button section
   const followBtns = document.querySelectorAll(".follow-user");
   for (const followbtn of followBtns) {
