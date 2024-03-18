@@ -22,12 +22,6 @@ const userData = [
     post: `<iframe src="https://www.youtube.com/embed/z_ZudGJktcw?si=Y8cPngrObBxApd2w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
      profile_img: "profile6.jpg",
   },
-  {
-    userName: "Microsoft",
-    followerCount: 567,
-    post: `<iframe  src="https://www.youtube.com/embed/4sHlCovj-Ik?si=xIjfMH_hQWLh8vYG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
-    profile_img: "profile4.jpg",
-  },
 
   {
     userName: "Virat Kohli",
