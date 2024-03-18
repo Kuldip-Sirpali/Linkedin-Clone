@@ -28,8 +28,7 @@ const userData = [
   {
     userName: "Bill Gates",
     followerCount: "5600",
-    post: ` <iframe width="560" height="315" src="https://www.youtube.com/embed/n434ha4QwU0?si=jYlRTnvYmtxWyVry" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
-    
+   post:`<iframe width="560" height="315" src="https://www.youtube.com/embed/10MoS1yAMbA?si=MiiLLSsJNnGdTK15" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
     profile_img: "profile1.jpg",
   },
   
@@ -59,9 +58,8 @@ const userData = [
   {
     userName: "Mark ZuckerBurg",
     followerCount: "1000",
-    post: `
-    <p></p>
-    <img src="illustration2.avif" width="100%">`,
+      post: ` <iframe width="560" height="315" src="https://www.youtube.com/embed/n434ha4QwU0?si=jYlRTnvYmtxWyVry" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+`,
     profile_img: "profile3.jpg",
   },
   
