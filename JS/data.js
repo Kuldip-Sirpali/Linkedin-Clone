@@ -105,6 +105,12 @@ const jobsData = [
     type: "Remote",
     companyLogo: "profile2.jpg",
   },
+    {
+    companyName: "Amazon",
+    position: "UI UX Designer",
+    type: "Remote",
+    companyLogo: "profile3.jpg",
+  },
   {
     companyName: "Dell",
     position: "Graphics Designer",
