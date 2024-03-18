@@ -367,7 +367,7 @@ jobsPageBtn.addEventListener("click", (evt) => {
 
   <div class="improve-resume global-hover">
       <span>I want to improve resume</span>
-      <span class="resume-icon"><img src="/profile1.jpg" width="100%"></span>
+      <span class="resume-icon"><img src="profile1.jpg" width="100%"></span>
   </div>
 
   <div class="guide-discription">
