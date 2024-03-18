@@ -28,9 +28,8 @@ const userData = [
   {
     userName: "Bill Gates",
     followerCount: "5600",
-    post: `
-    <p></p>
-    <img src="illustration1.avif" width="100%">`,
+    post: ` <iframe width="560" height="315" src="https://www.youtube.com/embed/n434ha4QwU0?si=jYlRTnvYmtxWyVry" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
+    
     profile_img: "profile1.jpg",
   },
   
