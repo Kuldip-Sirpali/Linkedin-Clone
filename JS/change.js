@@ -166,7 +166,7 @@ newWorkPageBtn.addEventListener("click", (evt) => {
   for (const popularPeople of popularPeoplesData) {
     recommmenedUserbox[2].innerHTML += `<div class="users-container-box">
       <div class="cover-box">
-         <img src="/IMG/${popularPeople["cover-image"]}" width="100%" alt="">
+         <img src="${popularPeople["cover-image"]}" width="100%" alt="">
         </div>
          <div class="users-profile-box"><img src="${popularPeople["profile-image"]}" width="100%" alt=""></div>
         <div class="users-info-box">
