@@ -57,6 +57,15 @@ const userData = [
     <img src="illustration1.avif" width="100%">`,
     profile_img: "profile5.jpg",
   },
+  {
+    userName: "Mark ZuckerBurg",
+    followerCount: "1000",
+    post: `
+    <p></p>
+    <img src="illustration2.avif" width="100%">`,
+    profile_img: "profile3.jpg",
+  },
+  
 ];
 
 const users = {
