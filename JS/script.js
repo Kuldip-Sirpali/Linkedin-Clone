@@ -58,7 +58,7 @@ const mainContainerEle = document.querySelector(".main-content-container");
 for (const data of userData) {
   mainContainerEle.innerHTML += `  <div class="data-show-container">
 <div class="top-content">
-<div class="profile-img-container"><img src ="/IMG/${data.profile_img}" width="100%" alt="Profile"></div>
+<div class="profile-img-container"><img src ="/${data.profile_img}" width="100%" alt="Profile"></div>
 <span class="username">${data.userName}</span>
 <div class="follow-user">Follow</div>
 </div>
