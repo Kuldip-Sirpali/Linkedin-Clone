@@ -23,6 +23,17 @@ const userData = [
      profile_img: "profile6.jpg",
   },
 
+
+
+  {
+    userName: "Bill Gates",
+    followerCount: "5600",
+    post: `
+    <p></p>
+    <img src="illustration1.avif" width="100%">`,
+    profile_img: "profile1.jpg",
+  },
+  
   {
     userName: "Virat Kohli",
     followerCount: "400m",
