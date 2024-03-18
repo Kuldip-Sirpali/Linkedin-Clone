@@ -52,7 +52,7 @@ newWorkPageBtn.addEventListener("click", (evt) => {
         <div class="network-more-btn global-hover">See more <i class="fa-solid fa-angle-down"></i></div>
       </div>
       <div class="image-container">
-        <img src="/random.png" width="100%" alt="" />
+        <img src="random.png" width="100%" alt="" />
       </div>
       <div class="network-footer">
         <div class="links-container-side">
