@@ -58,7 +58,7 @@ seeMoreProfile.addEventListener("click", () => {
 // for animated loader
 document.addEventListener("DOMContentLoaded", function () {
   // Simulate loading time (3 seconds in this example)
-  let time = 2000;
+  let time = 1000;
   setTimeout(function () {
     // Hide the loader
     document.querySelector(".loader-wrapper").style.display = "none";
