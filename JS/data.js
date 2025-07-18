@@ -68,8 +68,7 @@ const userData = [
 const users = {
   userName: "Will smith",
   followerCount: 45,
-  post: `<iframe src="https://www.youtube.com/embed/6GX-1BkXbOk?si=NIX9n93LNFZknkl-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
-  profile_img: "profile2.jpg",
+  post: `<iframe width="560" height="315" src="https://www.youtube.com/embed/lOKASgtr6kU?si=KVaRtyQL0GkBhjMI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>",
 };
 userData.push(users);
 
