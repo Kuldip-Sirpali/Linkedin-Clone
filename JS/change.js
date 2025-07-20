@@ -73,7 +73,7 @@ newWorkPageBtn.addEventListener("click", (evt) => {
           </p>
         </div>
         <div class="copy-right-text">
-          <i class="ri-linkedin-box-fill"></i> Kuldip Sirpali &copy; 2024
+          <i class="ri-linkedin-box-fill"></i> Kuldip Sirpali &copy; 2025
         </div>
       </div>
     </div>
@@ -395,7 +395,7 @@ jobsPageBtn.addEventListener("click", (evt) => {
     </p>
   </div>
   <div class="copy-right-text">
-    <i class="ri-linkedin-box-fill"></i> Kuldip Sirpali &copy; 2024
+    <i class="ri-linkedin-box-fill"></i> Kuldip Sirpali &copy; 2025
   </div>
 </div>
 
@@ -563,7 +563,7 @@ messagepPageBtn.addEventListener("click", (evt) => {
                             </p>
                     </div>
                     <div class="copy-right-text">
-                    <i class="ri-linkedin-box-fill"></i> Kuldip Sirpali &copy; 2024
+                    <i class="ri-linkedin-box-fill"></i> Kuldip Sirpali &copy; 2025
                   </div>
 
                 </div>
@@ -692,7 +692,7 @@ notificationBtn.addEventListener("click", (evt) => {
                         </p>
                       </div>
                       <div class="copy-right-text">
-                        <i class="ri-linkedin-box-fill"></i> Kuldip Sirpali &copy; 2024
+                        <i class="ri-linkedin-box-fill"></i> Kuldip Sirpali &copy; 2025
                       </div>
                     </div>
             </aside>
